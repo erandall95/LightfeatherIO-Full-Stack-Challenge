@@ -1,0 +1,23 @@
+{
+  "name": "lightfeather_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+    "server_i": "cd server && npm install",
+    "client_i": "cd client && npm install",
+    "install_all": "npm install && npm run server_i && npm run client_i",
+
+    "client": "npm run start --prefix client",
+    "server": "cd server && node server.js",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  }
+}

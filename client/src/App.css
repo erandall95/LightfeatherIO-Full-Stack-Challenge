@@ -1,0 +1,132 @@
+/* 
+lightfeather dominant colors are:
+#fefefe
+#0a5a9e
+#065389
+#a1bad0
+#d0dce6
+#000000
+*/
+
+.Top {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(10,90,158);
+    background: linear-gradient(315deg, #000000 0%, #0a5a9e 100%);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Title {
+    height: 6vh;
+    width: 60vw;
+    background: rgb(10,90,158, 0.5);
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    color: azure;
+    font-weight: bolder;
+    font-size: 6vh;
+    text-align: center;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.Body {
+    height: 60vh;
+    width: 60vw;
+    background: rgb(10,90,158, 0.5);
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.Row { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 8vh;
+}
+
+.FullWidthRow { 
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+    align-items: center;
+}
+
+.Column { 
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.InputTitle {
+    height: 4vh;
+    width: 10vw;
+    text-align: left;
+    color: azure;
+    font-size: 2.5vh;
+    margin-left: 1vw;
+}
+
+.InputTitleFullWidthRow {
+    height: 4vh;
+    width: 10vw;
+    text-align: center;
+    color: azure;
+    font-size: 2.5vh;
+    margin-left: 1vw;
+}
+
+.Input {
+    height: 4vh;
+    width: 25vw;
+    border-radius: 18px;
+    border-width: 1px;
+    border-style: groove;
+    border-color: #000000a0;
+    background: #065389;
+    text-align: center;
+    color: azure;
+    font-size: 3vh;
+}
+
+.Input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-size: 1.5vh;
+    color: #000000a0;
+    opacity: 0.75; /* Firefox */
+  }
+
+.Input:hover {
+    background: #0a5a9e;
+}
+
+.Select {
+    width: 15vw;
+    height: 4vh;
+    background-color: #065389;
+    color: azure;
+    border-radius: 18px;
+    border-width: 1px;
+    border-style: groove;
+    border-color: #000000a0;
+}
+
+.Select:hover {
+    background: #0a5a9e;
+}
+
+.SubmitButton {
+    height: 4vh;
+    width: 10vw;
+    border-radius: 18px;
+    border-width: 1px;
+    border-style: groove;
+    border-color: #000000a0;
+    font-size: 1.5vh;
+    background-color: #065389;
+    color: azure;
+}
+
+.SubmitButton:hover { 
+    background: #0a5a9e;
+}
